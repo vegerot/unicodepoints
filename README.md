@@ -24,7 +24,7 @@
 
 ```sh
 # on POSIX
-❯ go build -o "${GOBIN:-~/go/bin}/unicodepoint" cmd/cli/main.go
+❯ go build -o "${GOBIN:-$HOME/go/bin}/unicodepoint" cmd/cli/main.go
 
 ❯ unicodepoint --string 1F495
 💕
